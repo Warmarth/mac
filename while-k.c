@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main ()
 {
-    int i;
+    int i, e;
+    e = 0;
     i = ' ';
    
     while (i != 'k')
