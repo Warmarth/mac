@@ -9,5 +9,6 @@ int main()
     printf(" << will yield %d\n", d << f);
     printf(" ~ will yield %d\n", ~ (f));
     printf(" %d\n",d >> f && d & f || d | f );
+    printf(" %X",5678);
     return 0;
 }
