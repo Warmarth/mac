@@ -37,5 +37,13 @@
 // }
 int main ()
 {
-
+    double q;
+    q = 0;
+    while (q != 100)
+    {
+        if ( q == 10 )
+        printf("power %2.2f", pow( q, 2));
+        q++;
+    }
+    return 0;
 }
