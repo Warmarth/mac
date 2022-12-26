@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 // float BI(float h)
 // {
 //     if (h == 0)
@@ -22,6 +23,18 @@
 // }
 
 
+// int main ()
+// {
+//     double q;
+//     q = 0;
+//     while (q != 100)
+//     {
+//         if ( q == 10 )
+//         printf("power %2.2f", pow( q, 2));
+//         q++;
+//     }
+//     return 0;
+// }
 int main ()
 {
     
