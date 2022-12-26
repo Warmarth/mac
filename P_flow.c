@@ -42,7 +42,7 @@ int main ()
     while (q != 100)
     {
         if ((q%3== 0) && (q%5 == 0))
-        printf("%d\n",q);
+        printf("factors of 3 and 5: %d\n",q);
         q++;
     }
     return 0;
