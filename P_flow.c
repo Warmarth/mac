@@ -37,12 +37,12 @@
 // }
 int main ()
 {
-    double q;
+    int q;
     q = 0;
     while (q != 100)
     {
-        if ( q == 10 )
-        printf("power %2.2f", pow( q, 2));
+        if ((q%3== 0) && (q%5 == 0))
+        printf("%d\n",q);
         q++;
     }
     return 0;
