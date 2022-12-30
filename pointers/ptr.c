@@ -40,7 +40,8 @@ int main()
 
 /*ques 4*/
 
-    int i, t,*v,*q,*p;
+    int i, t;
+    int *v,*q,*p,*g;
     i=5;
     t=6;
     printf("address of i: %p   content of i: %d\n",&i, i);
@@ -52,10 +53,11 @@ int main()
     printf("address of q: %p   content of q: %d\n",q, *q);
     printf("address of p: %p   content of p: %d\n",p, *p);
     printf("address of v: %p   content of v: %d\n",v, *v);
-    *p = (*q) * (*v);
+    *p = *q * *v;
     printf("address of p: %p   content of p: %d\n",p, *p);
-   
-    printf("value of the variables: %d\n",i);
+    /*pointers must be initialized before been assigned to any pointer varieble*/
+   *g = *p;
+    printf("value of the variables: %d\n",*g);
 
 
 
