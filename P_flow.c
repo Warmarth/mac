@@ -35,15 +35,51 @@
 //     }
 //     return 0;
 // }
+// int main ()
+// {
+//     int q;
+//     q = 0;
+//     while (q != 100)
+//     {
+//         if ((q%3== 0) && (q%5 == 0))
+//         printf("factors of 3 and 5:%d\n",q);
+//         q++;
+//     }
+//     return 0;
+// }
+// int main ()
+// {
+//     int q;
+//     q = 0;
+//     while (q <= 10)
+//     {
+//     if (q%2 == 0)
+//         printf("is an even no:%i\n", q);
+//     else
+//         printf("%d \n", q);
+//     q++;
+//     }
+//     return 0;
+// }
+
 int main ()
 {
     int q;
     q = 0;
-    while (q != 100)
+    while (q <= 10)
     {
-        if ((q%3== 0) && (q%5 == 0))
-        printf("factors of 3 and 5: %d\n",q);
-        q++;
+        if (q%4 == 0)
+            if (q%2 == 0)
+                printf("is an even no:%i\n", q);
+            else
+                printf("%d \n", q);
+        else if (q == 4)
+            printf("IT WORKED");
+            
+        else 
+            printf("%i\n", q);
+    q++;
     }
+    
     return 0;
 }

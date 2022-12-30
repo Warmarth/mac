@@ -1,6 +1,4 @@
-#include <stdio.h>
-int main()
-{
-    int a, size;
-    float b ;
-    char c ;
+if (d > 24)
+    {
+         d = h/24;
+    }
